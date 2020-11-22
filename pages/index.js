@@ -8,49 +8,100 @@ const Index = () => {
 
         <div>
             <Title>Home</Title>
-            <div className="text-center grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10 mt-10">
+            <div className="text-center mt-10">
+                <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                <span class="block xl:inline">Introdução ao Calculo</span>
+                <span class="block text-green-600 xl:inline"> Ufopa</span>
+          </h1>
 
-                <div className="border-2 border-solid rounded w-64 h-64 mx-auto my-2">
+            </div>
 
-                    <h2 className="font-bold">Integral</h2>
+            <div className="text-center grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10 mt-10 p-10 bg-indigo-100">
 
-                    <Image src="/integral.png"
-                        alt="Picture of the author"
-                        width={200}
-                        height={200}/>
-                        
-                </div>
+                <div className="border-2 border-solid rounded-lg w-64 h-auto mx-auto my-2 bg-red-300 hover:bg-red-200">
 
-                <div className="border-2 border-solid rounded w-64 h-64 mx-auto my-2">
-
-                    <h2 className="font-bold">Integral</h2>
-
-                    <Image src="/integral.png"
-                        alt="Picture of the author"
-                        width={200}
-                        height={200}/>
-                </div>
-
-                <div className="border-2 border-solid rounded w-64 h-64 mx-auto my-2">
-
-                    <h2 className="font-bold">Integral</h2>
-
-                    <Image src="/integral.png"
-                        alt="Picture of the author"
-                        width={200}
-                        height={200}/>
-                </div>
-
-                <div className="border-2 border-solid rounded w-64 h-64 mx-auto my-2">
-
-                    <h2 className="font-bold">Integral</h2>
+                    <h2 className="font-bold my-2">Números</h2>
 
                     <Image src="/integral.png"
                         alt="Picture of the author"
                         width={200}
                         height={200}/>
                         
+                    <p className="m-2 text-white">Número é um objeto abstrato da matemática usado pa.</p>
+                        
                 </div>
+
+                <div className="border-2 border-solid rounded-lg w-64 h-auto mx-auto my-2 bg-red-200 hover:bg-red-100">
+
+                    <h2 className="font-bold my-2">Integral</h2>
+
+                    <Image src="/integral.png"
+                        alt="Picture of the author"
+                        width={200}
+                        height={200}/>
+                    <p className=" m-2">
+                    O cálculo diferencial e integral, também conhecido como cálculo i.
+                    </p>
+                </div>
+
+                <div className="border-2 border-solid rounded-lg w-64 h-auto mx-auto my-2 bg-green-400 hover:bg-green-300">
+
+                    <h2 className="font-bold my-2">Derivada</h2>
+
+                    <Image src="/derivada.png"
+                        alt="Picture of the author"
+                        width={200}
+                        height={200}/>
+
+                    <p className=" m-2 ">
+                    O cálculo diferencial e integral, também conhecido como cálculo in
+                    </p>
+                </div>
+
+                <div className="border-2 border-solid rounded-lg w-64 h-auto mx-auto my-2 bg-blue-400 hover:bg-blue-300">
+
+                    <h2 className="font-bold my-2">Integral</h2>
+
+                    <Image src="/integral.png"
+                        alt="Picture of the author"
+                        width={200}
+                        height={200}/>
+                    
+                    <p className="m-2">
+                    Número primo é qualquer número cujo conjunto dos divisores não inver.
+                    </p>
+                        
+                </div>
+
+                <div className="border-2 border-solid rounded-lg w-64 h-auto mx-auto my-2 bg-blue-400 hover:bg-blue-300">
+
+                    <h2 className="font-bold my-2">Integral</h2>
+
+                    <Image src="/integral.png"
+                        alt="Picture of the author"
+                        width={200}
+                        height={200}/>
+                    
+                    <p className="m-2">
+                    Número primo é qualquer número cujo conjunto dos divisores.
+                    </p>
+                        
+                </div>
+
+                <div className="border-2 border-solid rounded-lg w-64 h-auto mx-auto my-2 bg-red-200 hover:bg-red-100">
+
+                    <h2 className="font-bold my-2">Integral</h2>
+
+                    <Image src="/integral.png"
+                        alt="Picture of the author"
+                        width={200}
+                        height={200}/>
+                    <p className=" m-2">
+                    O cálculo diferencial e integral, também conhecido como cálculo infinitesimal.
+                    </p>
+                </div>
+
+                
 
             </div>
         </div>
