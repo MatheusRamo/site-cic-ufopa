@@ -1,0 +1,31 @@
+{
+  "name": "site-cic-ufopa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusRamo/site-cic-ufopa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatheusRamo/site-cic-ufopa/issues"
+  },
+  "homepage": "https://github.com/MatheusRamo/site-cic-ufopa#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "next": "^10.0.2",
+    "postcss": "^8.1.8",
+    "postcss-import": "^13.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.1"
+  }
+}
