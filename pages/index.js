@@ -8,15 +8,14 @@ const Index = () => {
 
         <div>
             <Title>Home</Title>
-            <div className="text-center mt-10">
+            <div className="text-center py-3 bg-blue-200">
                 <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span class="block xl:inline">Introdução ao Calculo</span>
-                <span class="block text-green-600 xl:inline"> Ufopa</span>
-          </h1>
-
+                    <span class="block xl:inline">Introdução ao Cálculo</span>
+                    <span class="block text-green-600 xl:inline"> Ufopa</span>
+                </h1>
             </div>
 
-            <div className="text-center grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10 mt-10 p-10 bg-indigo-100">
+            <div className="text-center grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-10 bg-indigo-100">
 
                 <div className="border-2 border-solid rounded-lg w-64 h-auto mx-auto my-2 bg-red-300 hover:bg-red-200">
 
