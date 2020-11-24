@@ -15,75 +15,60 @@ const Index = () => {
                 </h1>
             </div>
 
-            <div className="container text-center grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 bg-indigo-100">
+            
 
-                <div className="border-2 border-solid rounded-lg w-60 h-auto mx-auto my-2 bg-red-300 hover:bg-red-200">
+            <div className="text-center grid grid-cols-1  p-2 bg-indigo-100 sm:grid-cols-2 sm:mx-20 md:grid-cols-3 md:mx-10 lg:grid-cols-4 lg:mx-35 xl:mx-50 xl:grid-cols-5">
 
-                    <h2 className="font-bold my-2">Números</h2>
+                <div className="border-2 border-solid rounded-xl shadow-md w-52 h-auto mx-auto my-2  bg-red-300 hover:bg-red-200 lg:mx-2">
 
-                    <Image src="/integral.png"
-                        alt="Picture of the author"
-                        width={150}
-                        height={150}/>
-                        
-                    <p className="my-2 text-white">Número é um objeto abstrato da matemática usado pa.</p>
-                        
-                </div>
+                    <div  className="mt-5">
+                        <Image src="/integral.png" alt="Picture of the author" width={120} height={120}/>
+                    </div>
 
-                <div className="border-2 border-solid rounded-lg w-60 h-auto mx-auto my-2 bg-red-200 hover:bg-red-100">
-
-                    <h2 className="font-bold my-2">Integral</h2>
-
-                    <Image src="/integral.png"
-                        alt="Picture of the author"
-                        width={150}
-                        height={150}/>
-                    <p className=" my-2">
-                    O cálculo diferencial e integral, também conhecido como cálculo i.
-                    </p>
-                </div>
-
-                <div className="border-2 border-solid rounded-lg w-60 h-auto mx-auto my-2 bg-green-400 hover:bg-green-300">
-
-                    <h2 className="font-bold my-2">Derivada</h2>
-
-                    <Image src="/derivada.png"
-                        alt="Picture of the author"
-                        width={150}
-                        height={150}/>
-
-                    <p className=" my-2 ">
-                    O cálculo diferencial e integral, também conhecido como cálculo in
-                    </p>
-                </div>
-
-                <div className="border-2 border-solid rounded-lg w-60 h-auto mx-auto my-2 bg-blue-400 hover:bg-blue-300">
-
-                    <h2 className="font-bold my-2">Integral</h2>
-
-                    <Image src="/integral.png"
-                        alt="Picture of the author"
-                        width={150}
-                        height={150}/>
-                    
-                    <p className="my-2">
-                    Número primo é qualquer número cujo conjunto dos divisores não inver.
-                    </p>
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Números</a>
+                    <p className="my-2 text-gray-500">Número é um objeto abstrato da matemática usado pa.</p>
                         
                 </div>
 
-                <div className="border-2 border-solid rounded-lg w-60 h-auto mx-auto my-2 bg-blue-400 hover:bg-blue-300">
+                <div className="border-2 border-solid rounded-xl shadow-md w-52 h-auto mx-auto my-2 bg-red-200 hover:bg-red-100 lg:mx-2">
 
-                    <h2 className="font-bold my-2">Integral</h2>
+                    <div  className="mt-5">
+                        <Image src="/integral.png" alt="Picture of the author" width={120} height={120}/>
+                    </div>
 
-                    <Image src="/integral.png"
-                        alt="Picture of the author"
-                        width={150}
-                        height={150}/>
-                    
-                    <p className="my-2">
-                    Número primo é qualquer número cujo conjunto dos divisores.
-                    </p>
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Números</a>
+                    <p className="my-2 text-gray-500">Número é um objeto abstrato da matemática usado pa.</p>
+                </div>
+
+                <div className="border-2 border-solid rounded-xl shadow-md w-52 h-auto mx-auto my-2 bg-green-400 hover:bg-green-300 lg:mx-2">
+
+                    <div  className="mt-5">
+                        <Image src="/integral.png" alt="Picture of the author" width={120} height={120}/>
+                    </div>
+
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Números</a>
+                    <p className="my-2 text-gray-500">Número é um objeto abstrato da matemática usado pa.</p>
+                </div>
+
+                <div className="border-2 border-solid rounded-xl shadow-md w-52 h-auto mx-auto my-2 bg-blue-400 hover:bg-blue-300 lg:mx-2">
+
+                    <div  className="mt-5">
+                        <Image src="/integral.png" alt="Picture of the author" width={120} height={120}/>
+                    </div>
+
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Números</a>
+                    <p className="my-2 text-gray-500">Número é um objeto abstrato da matemática usado pa.</p>
+                        
+                </div>
+
+                <div className="border-2 border-solid rounded-xl shadow-md w-52 h-auto mx-auto my-2 bg-blue-400 hover:bg-blue-300 lg:mx-2">
+
+                    <div  className="mt-5">
+                        <Image src="/derivada.png" alt="Picture of the author" width={120} height={120}/>
+                    </div>
+
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Números</a>
+                    <p className="my-2 text-gray-500">Número é um objeto abstrato da matemática usado pa.</p>
                         
                 </div>
 
