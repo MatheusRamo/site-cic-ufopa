@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../components/Title';
-import Image from 'next/image';
+import Card from '../components/Card';
 
 
 const Index = () => {
@@ -19,62 +19,22 @@ const Index = () => {
 
             <div className="text-center grid grid-cols-1  p-2 bg-indigo-100 sm:grid-cols-2 sm:mx-20 md:grid-cols-3 md:mx-10 lg:grid-cols-4 lg:mx-35 xl:mx-50 xl:grid-cols-5">
 
-                <div className="border-2 border-solid rounded-xl shadow-md w-52 h-auto mx-auto my-2  bg-red-300 hover:bg-red-200 lg:mx-2">
 
-                    <div  className="mt-5">
-                        <Image src="/integral.png" alt="Picture of the author" width={120} height={120}/>
-                    </div>
+                <Card titulo="Números" descricao="Número é um objeto abstrato da matemática usado pa." imagem="/integral.png" color="bg-red-300" hoverColor="bg-red-200" link="/posts/numeros" />
 
-                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Números</a>
-                    <p className="my-2 text-gray-500">Número é um objeto abstrato da matemática usado pa.</p>
-                        
-                </div>
+                <Card titulo="Teste" descricao="Número é um objeto abstrato da matemática usado pa." imagem="/integral.png" color="bg-blue-300" hoverColor="bg-blue-200" link="/posts/numeros" />
 
-                <div className="border-2 border-solid rounded-xl shadow-md w-52 h-auto mx-auto my-2 bg-red-200 hover:bg-red-100 lg:mx-2">
+                <Card titulo="Adição" descricao="Número é um objeto abstrato da matemática usado." imagem="/integral.png" color="bg-red-200" hoverColor="bg-red-100" link="/posts/numeros" />
 
-                    <div  className="mt-5">
-                        <Image src="/integral.png" alt="Picture of the author" width={120} height={120}/>
-                    </div>
+                <Card titulo="Numeros" descricao="Número é um objeto abstrato." imagem="/integral.png" color="bg-green-400" hoverColor="bg-green-300" link="/posts/numeros" />
 
-                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Números</a>
-                    <p className="my-2 text-gray-500">Número é um objeto abstrato da matemática usado pa.</p>
-                </div>
+                <Card titulo="Teste" descricao="Número é um objeto abstrato da matemática usado pa." imagem="/integral.png" color="bg-blue-300" hoverColor="bg-blue-200" link="/posts/numeros" />
 
-                <div className="border-2 border-solid rounded-xl shadow-md w-52 h-auto mx-auto my-2 bg-green-400 hover:bg-green-300 lg:mx-2">
+                <Card titulo="Teste" descricao="Número é um objeto abstrato da matemática usado pa." imagem="/integral.png" color="bg-blue-300" hoverColor="bg-blue-200" link="/posts/numeros" />
 
-                    <div  className="mt-5">
-                        <Image src="/integral.png" alt="Picture of the author" width={120} height={120}/>
-                    </div>
+                <Card titulo="Teste" descricao="Número é um objeto abstrato da matemática usado pa." imagem="/derivada.png" color="bg-blue-200" hoverColor="bg-blue-100" link="/posts/numeros" />
 
-                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Números</a>
-                    <p className="my-2 text-gray-500">Número é um objeto abstrato da matemática usado pa.</p>
-                </div>
-
-                <div className="border-2 border-solid rounded-xl shadow-md w-52 h-auto mx-auto my-2 bg-blue-400 hover:bg-blue-300 lg:mx-2">
-
-                    <div  className="mt-5">
-                        <Image src="/integral.png" alt="Picture of the author" width={120} height={120}/>
-                    </div>
-
-                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Números</a>
-                    <p className="my-2 text-gray-500">Número é um objeto abstrato da matemática usado pa.</p>
-                        
-                </div>
-
-                <div className="border-2 border-solid rounded-xl shadow-md w-52 h-auto mx-auto my-2 bg-blue-400 hover:bg-blue-300 lg:mx-2">
-
-                    <div  className="mt-5">
-                        <Image src="/derivada.png" alt="Picture of the author" width={120} height={120}/>
-                    </div>
-
-                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Números</a>
-                    <p className="my-2 text-gray-500">Número é um objeto abstrato da matemática usado pa.</p>
-                        
-                </div>
-
-                
-
-                
+                <Card titulo="Teste" descricao="Número é um objeto abstrato da matemática usado pa." imagem="/derivada.png" color="bg-yellow-300" hoverColor="bg-yellow-200" link="/posts/numeros" />
 
             </div>
         </div>

@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/MatheusRamo/site-cic-ufopa#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "autoprefixer": "^10.0.2",
     "next": "^10.0.2",
     "postcss": "^8.1.8",
